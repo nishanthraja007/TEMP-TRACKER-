@@ -1,0 +1,749 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRK-HE-0001",
+        "type": "heatwave",
+        "start_date": "2022-01-31",
+        "end_date": "2022-02-04",
+        "duration_days": 5,
+        "peak_intensity": 7.18,
+        "max_area_km2": 205330.0,
+        "mean_velocity_km_day": 129.9,
+        "status": "dissipated",
+        "split_from": null,
+        "merged_into": null,
+        "forecast_path": [
+          [
+            79.2,
+            22.43
+          ],
+          [
+            80.19,
+            22.5
+          ]
+        ],
+        "history": [
+          {
+            "date": "2022-01-31",
+            "latitude": 21.26,
+            "longitude": 75.25,
+            "area_km2": 45931.8,
+            "intensity_anomaly": 3.38,
+            "velocity_km_day": 0.0
+          },
+          {
+            "date": "2022-02-01",
+            "latitude": 22.31,
+            "longitude": 75.44,
+            "area_km2": 102557.2,
+            "intensity_anomaly": 5.14,
+            "velocity_km_day": 118.8
+          },
+          {
+            "date": "2022-02-02",
+            "latitude": 22.35,
+            "longitude": 75.99,
+            "area_km2": 205330.0,
+            "intensity_anomaly": 7.18,
+            "velocity_km_day": 56.3
+          },
+          {
+            "date": "2022-02-03",
+            "latitude": 22.8,
+            "longitude": 76.47,
+            "area_km2": 113555.8,
+            "intensity_anomaly": 6.67,
+            "velocity_km_day": 70.1
+          },
+          {
+            "date": "2022-02-04",
+            "latitude": 22.37,
+            "longitude": 78.2,
+            "area_km2": 45691.8,
+            "intensity_anomaly": 3.24,
+            "velocity_km_day": 184.2
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.25,
+            21.26
+          ],
+          [
+            75.44,
+            22.31
+          ],
+          [
+            75.99,
+            22.35
+          ],
+          [
+            76.47,
+            22.8
+          ],
+          [
+            78.2,
+            22.37
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRK-HE-0002",
+        "type": "heatwave",
+        "start_date": "2022-05-02",
+        "end_date": "2022-05-05",
+        "duration_days": 4,
+        "peak_intensity": 6.78,
+        "max_area_km2": 230935.9,
+        "mean_velocity_km_day": 149.0,
+        "status": "dissipated",
+        "split_from": null,
+        "merged_into": null,
+        "forecast_path": [
+          [
+            77.24,
+            29.17
+          ],
+          [
+            78.53,
+            29.86
+          ]
+        ],
+        "history": [
+          {
+            "date": "2022-05-02",
+            "latitude": 26.76,
+            "longitude": 72.34,
+            "area_km2": 230935.9,
+            "intensity_anomaly": 5.89,
+            "velocity_km_day": 0.0
+          },
+          {
+            "date": "2022-05-03",
+            "latitude": 26.8,
+            "longitude": 73.28,
+            "area_km2": 219898.8,
+            "intensity_anomaly": 6.36,
+            "velocity_km_day": 93.5
+          },
+          {
+            "date": "2022-05-04",
+            "latitude": 27.48,
+            "longitude": 74.33,
+            "area_km2": 218300.3,
+            "intensity_anomaly": 6.78,
+            "velocity_km_day": 127.7
+          },
+          {
+            "date": "2022-05-05",
+            "latitude": 28.47,
+            "longitude": 75.95,
+            "area_km2": 64859.1,
+            "intensity_anomaly": 4.92,
+            "velocity_km_day": 194.6
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.34,
+            26.76
+          ],
+          [
+            73.28,
+            26.8
+          ],
+          [
+            74.33,
+            27.48
+          ],
+          [
+            75.95,
+            28.47
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRK-HE-0003",
+        "type": "heatwave",
+        "start_date": "2022-06-06",
+        "end_date": "2022-06-10",
+        "duration_days": 5,
+        "peak_intensity": 8.8,
+        "max_area_km2": 284241.4,
+        "mean_velocity_km_day": 127.9,
+        "status": "dissipated",
+        "split_from": null,
+        "merged_into": null,
+        "forecast_path": [
+          [
+            81.7,
+            26.44
+          ],
+          [
+            82.77,
+            26.18
+          ]
+        ],
+        "history": [
+          {
+            "date": "2022-06-06",
+            "latitude": 27.2,
+            "longitude": 76.54,
+            "area_km2": 164333.5,
+            "intensity_anomaly": 6.5,
+            "velocity_km_day": 0.0
+          },
+          {
+            "date": "2022-06-07",
+            "latitude": 27.42,
+            "longitude": 76.77,
+            "area_km2": 284241.4,
+            "intensity_anomaly": 7.18,
+            "velocity_km_day": 33.1
+          },
+          {
+            "date": "2022-06-08",
+            "latitude": 27.77,
+            "longitude": 78.71,
+            "area_km2": 272390.2,
+            "intensity_anomaly": 8.8,
+            "velocity_km_day": 195.8
+          },
+          {
+            "date": "2022-06-09",
+            "latitude": 27.11,
+            "longitude": 79.49,
+            "area_km2": 263876.9,
+            "intensity_anomaly": 6.26,
+            "velocity_km_day": 106.4
+          },
+          {
+            "date": "2022-06-10",
+            "latitude": 26.71,
+            "longitude": 80.62,
+            "area_km2": 165213.5,
+            "intensity_anomaly": 5.11,
+            "velocity_km_day": 121.0
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.54,
+            27.2
+          ],
+          [
+            76.77,
+            27.42
+          ],
+          [
+            78.71,
+            27.77
+          ],
+          [
+            79.49,
+            27.11
+          ],
+          [
+            80.62,
+            26.71
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRK-RA-0005",
+        "type": "rainfall",
+        "start_date": "2022-07-15",
+        "end_date": "2022-07-19",
+        "duration_days": 5,
+        "peak_intensity": 115.58,
+        "max_area_km2": 380777.6,
+        "mean_velocity_km_day": 214.1,
+        "status": "dissipated",
+        "split_from": null,
+        "merged_into": null,
+        "forecast_path": [
+          [
+            77.68,
+            23.29
+          ],
+          [
+            75.8,
+            24.02
+          ]
+        ],
+        "history": [
+          {
+            "date": "2022-07-15",
+            "latitude": 19.77,
+            "longitude": 87.1,
+            "area_km2": 197055.8,
+            "intensity_anomaly": 45.8,
+            "velocity_km_day": 0.0
+          },
+          {
+            "date": "2022-07-16",
+            "latitude": 20.44,
+            "longitude": 85.19,
+            "area_km2": 380777.6,
+            "intensity_anomaly": 101.95,
+            "velocity_km_day": 213.3
+          },
+          {
+            "date": "2022-07-17",
+            "latitude": 20.76,
+            "longitude": 83.36,
+            "area_km2": 380154.2,
+            "intensity_anomaly": 115.58,
+            "velocity_km_day": 193.4
+          },
+          {
+            "date": "2022-07-18",
+            "latitude": 21.8,
+            "longitude": 81.43,
+            "area_km2": 342575.8,
+            "intensity_anomaly": 112.88,
+            "velocity_km_day": 231.0
+          },
+          {
+            "date": "2022-07-19",
+            "latitude": 22.55,
+            "longitude": 79.55,
+            "area_km2": 204733.4,
+            "intensity_anomaly": 41.71,
+            "velocity_km_day": 210.2
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            87.1,
+            19.77
+          ],
+          [
+            85.19,
+            20.44
+          ],
+          [
+            83.36,
+            20.76
+          ],
+          [
+            81.43,
+            21.8
+          ],
+          [
+            79.55,
+            22.55
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRK-RA-0006",
+        "type": "rainfall",
+        "start_date": "2022-11-08",
+        "end_date": "2022-11-12",
+        "duration_days": 5,
+        "peak_intensity": 126.42,
+        "max_area_km2": 165546.0,
+        "mean_velocity_km_day": 261.4,
+        "status": "dissipated",
+        "split_from": null,
+        "merged_into": null,
+        "forecast_path": [
+          [
+            77.96,
+            23.61
+          ],
+          [
+            76.56,
+            25.49
+          ]
+        ],
+        "history": [
+          {
+            "date": "2022-11-08",
+            "latitude": 14.02,
+            "longitude": 84.49,
+            "area_km2": 119539.2,
+            "intensity_anomaly": 99.12,
+            "velocity_km_day": 0.0
+          },
+          {
+            "date": "2022-11-09",
+            "latitude": 16.25,
+            "longitude": 83.52,
+            "area_km2": 165546.0,
+            "intensity_anomaly": 126.42,
+            "velocity_km_day": 268.6
+          },
+          {
+            "date": "2022-11-10",
+            "latitude": 18.27,
+            "longitude": 82.44,
+            "area_km2": 140396.7,
+            "intensity_anomaly": 126.24,
+            "velocity_km_day": 252.7
+          },
+          {
+            "date": "2022-11-11",
+            "latitude": 19.79,
+            "longitude": 80.95,
+            "area_km2": 58033.3,
+            "intensity_anomaly": 99.55,
+            "velocity_km_day": 229.7
+          },
+          {
+            "date": "2022-11-12",
+            "latitude": 21.74,
+            "longitude": 79.35,
+            "area_km2": 57194.5,
+            "intensity_anomaly": 27.69,
+            "velocity_km_day": 273.7
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            84.49,
+            14.02
+          ],
+          [
+            83.52,
+            16.25
+          ],
+          [
+            82.44,
+            18.27
+          ],
+          [
+            80.95,
+            19.79
+          ],
+          [
+            79.35,
+            21.74
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRK-HE-0007",
+        "type": "heatwave",
+        "start_date": "2023-04-27",
+        "end_date": "2023-05-02",
+        "duration_days": 6,
+        "peak_intensity": 7.76,
+        "max_area_km2": 348799.4,
+        "mean_velocity_km_day": 106.7,
+        "status": "dissipated",
+        "split_from": null,
+        "merged_into": null,
+        "forecast_path": [
+          [
+            80.4,
+            25.85
+          ],
+          [
+            81.46,
+            26.15
+          ]
+        ],
+        "history": [
+          {
+            "date": "2023-04-27",
+            "latitude": 23.8,
+            "longitude": 75.0,
+            "area_km2": 112722.6,
+            "intensity_anomaly": 4.07,
+            "velocity_km_day": 0.0
+          },
+          {
+            "date": "2023-04-28",
+            "latitude": 24.0,
+            "longitude": 75.06,
+            "area_km2": 348799.4,
+            "intensity_anomaly": 7.16,
+            "velocity_km_day": 22.6
+          },
+          {
+            "date": "2023-04-29",
+            "latitude": 24.81,
+            "longitude": 76.58,
+            "area_km2": 323867.1,
+            "intensity_anomaly": 7.28,
+            "velocity_km_day": 178.7
+          },
+          {
+            "date": "2023-04-30",
+            "latitude": 25.12,
+            "longitude": 77.03,
+            "area_km2": 323593.2,
+            "intensity_anomaly": 7.76,
+            "velocity_km_day": 56.1
+          },
+          {
+            "date": "2023-05-01",
+            "latitude": 25.28,
+            "longitude": 77.84,
+            "area_km2": 289815.7,
+            "intensity_anomaly": 5.74,
+            "velocity_km_day": 83.6
+          },
+          {
+            "date": "2023-05-02",
+            "latitude": 25.55,
+            "longitude": 79.34,
+            "area_km2": 211148.7,
+            "intensity_anomaly": 5.39,
+            "velocity_km_day": 153.6
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.0,
+            23.8
+          ],
+          [
+            75.06,
+            24.0
+          ],
+          [
+            76.58,
+            24.81
+          ],
+          [
+            77.03,
+            25.12
+          ],
+          [
+            77.84,
+            25.28
+          ],
+          [
+            79.34,
+            25.55
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRK-RA-0008",
+        "type": "rainfall",
+        "start_date": "2023-07-15",
+        "end_date": "2023-07-20",
+        "duration_days": 6,
+        "peak_intensity": 147.03,
+        "max_area_km2": 543032.7,
+        "mean_velocity_km_day": 233.4,
+        "status": "dissipated",
+        "split_from": null,
+        "merged_into": null,
+        "forecast_path": [
+          [
+            75.24,
+            21.39
+          ],
+          [
+            73.03,
+            21.71
+          ]
+        ],
+        "history": [
+          {
+            "date": "2023-07-15",
+            "latitude": 19.21,
+            "longitude": 88.15,
+            "area_km2": 279139.1,
+            "intensity_anomaly": 42.95,
+            "velocity_km_day": 0.0
+          },
+          {
+            "date": "2023-07-16",
+            "latitude": 19.42,
+            "longitude": 86.28,
+            "area_km2": 464510.9,
+            "intensity_anomaly": 105.48,
+            "velocity_km_day": 197.2
+          },
+          {
+            "date": "2023-07-17",
+            "latitude": 19.9,
+            "longitude": 84.04,
+            "area_km2": 497738.1,
+            "intensity_anomaly": 147.03,
+            "velocity_km_day": 241.2
+          },
+          {
+            "date": "2023-07-18",
+            "latitude": 20.24,
+            "longitude": 81.93,
+            "area_km2": 543032.7,
+            "intensity_anomaly": 127.71,
+            "velocity_km_day": 223.5
+          },
+          {
+            "date": "2023-07-19",
+            "latitude": 21.04,
+            "longitude": 79.73,
+            "area_km2": 504999.4,
+            "intensity_anomaly": 115.95,
+            "velocity_km_day": 245.4
+          },
+          {
+            "date": "2023-07-20",
+            "latitude": 21.06,
+            "longitude": 77.44,
+            "area_km2": 253271.7,
+            "intensity_anomaly": 42.15,
+            "velocity_km_day": 237.9
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.15,
+            19.21
+          ],
+          [
+            86.28,
+            19.42
+          ],
+          [
+            84.04,
+            19.9
+          ],
+          [
+            81.93,
+            20.24
+          ],
+          [
+            79.73,
+            21.04
+          ],
+          [
+            77.44,
+            21.06
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRK-RA-0010",
+        "type": "rainfall",
+        "start_date": "2023-11-07",
+        "end_date": "2023-11-10",
+        "duration_days": 4,
+        "peak_intensity": 166.37,
+        "max_area_km2": 279734.4,
+        "mean_velocity_km_day": 176.1,
+        "status": "dissipated",
+        "split_from": null,
+        "merged_into": null,
+        "forecast_path": [
+          [
+            70.08,
+            20.49
+          ],
+          [
+            70.58,
+            21.97
+          ]
+        ],
+        "history": [
+          {
+            "date": "2023-11-07",
+            "latitude": 14.42,
+            "longitude": 68.2,
+            "area_km2": 59667.4,
+            "intensity_anomaly": 52.5,
+            "velocity_km_day": 0.0
+          },
+          {
+            "date": "2023-11-08",
+            "latitude": 15.97,
+            "longitude": 68.49,
+            "area_km2": 236816.4,
+            "intensity_anomaly": 123.1,
+            "velocity_km_day": 176.0
+          },
+          {
+            "date": "2023-11-09",
+            "latitude": 17.76,
+            "longitude": 68.92,
+            "area_km2": 246282.4,
+            "intensity_anomaly": 166.37,
+            "velocity_km_day": 203.6
+          },
+          {
+            "date": "2023-11-10",
+            "latitude": 19.01,
+            "longitude": 69.57,
+            "area_km2": 279734.4,
+            "intensity_anomaly": 133.75,
+            "velocity_km_day": 155.6
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            68.2,
+            14.42
+          ],
+          [
+            68.49,
+            15.97
+          ],
+          [
+            68.92,
+            17.76
+          ],
+          [
+            69.57,
+            19.01
+          ]
+        ]
+      }
+    }
+  ]
+}

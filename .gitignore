@@ -1,0 +1,32 @@
+# Virtual Environments
+.venv/
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Data & Results (large binary artifacts)
+*.nc
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+results/*.pt
+results/*.pkl
+
+# Node / Frontend
+web/node_modules/
+web/dist/
+web/.vite/
+web/*.tsbuildinfo
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,11 @@
+{
+  "best_val_loss": 0.12153,
+  "threshold": 0.39255,
+  "test_split": {
+    "precision": 0.1066,
+    "recall": 1.0,
+    "f1": 0.1926,
+    "iou": 0.1066,
+    "dice": 0.1926
+  }
+}

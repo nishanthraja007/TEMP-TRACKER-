@@ -1,0 +1,76 @@
+# Default Configuration for Extreme Weather Anomaly Tracking
+
+project:
+  name: "ai-extreme-weather-tracking"
+  version: "1.0.0"
+  seed: 42
+  device: "auto" # "auto", "cuda", or "cpu"
+
+data:
+  mode: "sample" # "sample" or "era5"
+  sample_path: "data/sample/weather_sample.nc"
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  results_dir: "results"
+  variables:
+    - "t2m"    # 2m Temperature (K)
+    - "tp"     # Total Precipitation (m or mm)
+    - "u10"    # 10m U-component of Wind (m/s)
+    - "v10"    # 10m V-component of Wind (m/s)
+    - "msl"    # Mean Sea Level Pressure (Pa)
+    - "rh"     # Relative Humidity (%)
+  spatial_bounds:
+    lat_min: 5.0
+    lat_max: 40.0
+    lon_min: 60.0
+    lon_max: 100.0
+  resolution:
+    sample: 1.0   # 1.0 degree grid for rapid CPU verification
+    era5: 0.25    # 0.25 degree standard grid for full ERA5 reanalysis
+  time_range:
+    sample_days: 730  # 2 years of daily data for synthetic tests
+    train_split: 0.70
+    val_split: 0.15
+    test_split: 0.15
+
+preprocessing:
+  window_past_days: 7
+  forecast_lead_days: [1, 2, 3]
+  climatology_window_days: 15
+  zscore_threshold: 2.0
+  imd_heatwave_min_temp_c: 40.0
+  imd_heatwave_departure_c: 4.5
+  extreme_rain_percentile: 95.0
+
+detection:
+  iforest:
+    n_estimators: 100
+    contamination: 0.05
+    max_samples: "auto"
+  autoencoder:
+    epochs: 3
+    batch_size: 16
+    learning_rate: 0.001
+    hidden_dims: [32, 16]
+    threshold_percentile: 95.0
+  unet:
+    epochs: 3
+    batch_size: 16
+    learning_rate: 0.001
+    dice_weight: 0.5
+    focal_weight: 0.5
+
+tracking:
+  min_area_pixels: 4
+  min_duration_days: 2
+  iou_threshold: 0.15
+  max_centroid_distance_km: 600.0
+  dbscan_eps_km: 250.0
+  dbscan_min_samples: 3
+
+forecasting:
+  model: "convlstm"
+  epochs: 3
+  batch_size: 16
+  hidden_dim: 32
+  kernel_size: 3

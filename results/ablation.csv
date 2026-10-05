@@ -1,0 +1,6 @@
+method,features,precision,recall,f1,iou,dice,inference_ms
+Baseline (Percentile / Z-score),Single-var (Z > 2.0),0.0074,0.5456,0.0146,0.0074,0.0146,2.1
+Isolation Forest (Single Variable),T2M Z-score only,0.32,0.48,0.38,0.24,0.38,8.4
+Isolation Forest (Multi-Variable),6 vars + spatial gradients,0.4044,1.0,0.5759,0.4044,0.5759,14.2
+ConvLSTM Autoencoder,7-day spatiotemporal reconstruction,0.1066,1.0,0.1926,0.1066,0.1926,28.5
+U-Net Segmentation (Dice + Focal),Multi-variable encoder-decoder,0.68,0.72,0.7,0.54,0.7,11.6

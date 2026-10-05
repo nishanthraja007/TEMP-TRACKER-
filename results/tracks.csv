@@ -1,0 +1,9 @@
+track_id,event_type,start_date,end_date,duration_days,peak_intensity,max_area_km2,mean_velocity_km_day,status,split_from,merged_into
+TRK-HE-0001,heatwave,2022-01-31,2022-02-04,5,7.18,205330.0,129.9,dissipated,none,none
+TRK-HE-0002,heatwave,2022-05-02,2022-05-05,4,6.78,230935.9,149.0,dissipated,none,none
+TRK-HE-0003,heatwave,2022-06-06,2022-06-10,5,8.8,284241.4,127.9,dissipated,none,none
+TRK-RA-0005,rainfall,2022-07-15,2022-07-19,5,115.58,380777.6,214.1,dissipated,none,none
+TRK-RA-0006,rainfall,2022-11-08,2022-11-12,5,126.42,165546.0,261.4,dissipated,none,none
+TRK-HE-0007,heatwave,2023-04-27,2023-05-02,6,7.76,348799.4,106.7,dissipated,none,none
+TRK-RA-0008,rainfall,2023-07-15,2023-07-20,6,147.03,543032.7,233.4,dissipated,none,none
+TRK-RA-0010,rainfall,2023-11-07,2023-11-10,4,166.37,279734.4,176.1,dissipated,none,none
